@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T08:25:07.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="wZACr5QgVUCoWlF13rzG" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:40:54.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="9QZz0MB84kr9bQ_5W-5z" version="21.1.7" type="github">
   <diagram name="第 1 页" id="qJ-X1qhtcwTxbgNXG1Gi">
-    <mxGraphModel dx="815" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,8 +234,8 @@
             <mxPoint x="1365" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NKLDn5L9JN7en2WeP7ce-58" value="&lt;span style=&quot;background-color: initial;&quot;&gt;底层数据结构采用数组&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;非线程安全&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="635" width="100" height="90" as="geometry" />
+        <mxCell id="NKLDn5L9JN7en2WeP7ce-58" value="&lt;span style=&quot;background-color: initial;&quot;&gt;底层数据结构采用数组&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;非线程安全&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="195" y="665" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="NKLDn5L9JN7en2WeP7ce-59" value="底层数据结构采用双向链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="327.5" y="665" width="85" height="30" as="geometry" />
@@ -296,6 +296,12 @@
         </mxCell>
         <mxCell id="E5FZJGZwCVPtuIH_qCDA-25" value="+ hasNext() : boolean&lt;br&gt;+ next() : Object&lt;br&gt;+ remove()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="E5FZJGZwCVPtuIH_qCDA-24">
           <mxGeometry y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E5FZJGZwCVPtuIH_qCDA-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#29b6f2;curved=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="E5FZJGZwCVPtuIH_qCDA-26" target="NKLDn5L9JN7en2WeP7ce-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5FZJGZwCVPtuIH_qCDA-26" value="&lt;ol&gt;&lt;li&gt;初始化容量为 0，添加第一个元素时，初始化为容量为 10 的数组&lt;/li&gt;&lt;li&gt;也可以指定初始化容量&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;底层是 Object 数组 Object[ ]&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;扩容时，扩容到原容量的 1.5 倍&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#29b6f2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="730" width="170" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
