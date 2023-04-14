@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T09:40:54.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="9QZz0MB84kr9bQ_5W-5z" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T11:08:50.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="9LFLYYUWKBCcuABmTEUh" version="21.1.7" type="github">
   <diagram name="第 1 页" id="qJ-X1qhtcwTxbgNXG1Gi">
-    <mxGraphModel dx="732" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -300,8 +300,14 @@
         <mxCell id="E5FZJGZwCVPtuIH_qCDA-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#29b6f2;curved=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="E5FZJGZwCVPtuIH_qCDA-26" target="NKLDn5L9JN7en2WeP7ce-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E5FZJGZwCVPtuIH_qCDA-26" value="&lt;ol&gt;&lt;li&gt;初始化容量为 0，添加第一个元素时，初始化为容量为 10 的数组&lt;/li&gt;&lt;li&gt;也可以指定初始化容量&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;底层是 Object 数组 Object[ ]&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;扩容时，扩容到原容量的 1.5 倍&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#29b6f2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="730" width="170" height="120" as="geometry" />
+        <mxCell id="E5FZJGZwCVPtuIH_qCDA-26" value="&lt;ol&gt;&lt;li&gt;初始化容量为 0，添加第一个元素时，初始化为容量为 10 的数组&lt;/li&gt;&lt;li&gt;也可以指定初始化容量&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;底层是 Object 数组 Object[ ]&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;扩容时，扩容到原容量的 1.5 倍&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#29b6f2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="730" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E5FZJGZwCVPtuIH_qCDA-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="E5FZJGZwCVPtuIH_qCDA-33" target="NKLDn5L9JN7en2WeP7ce-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5FZJGZwCVPtuIH_qCDA-33" value="初始容量为 10&amp;nbsp;&lt;br&gt;每次扩容后容量为原来的 2 倍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#26b5f2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="810" width="107.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
