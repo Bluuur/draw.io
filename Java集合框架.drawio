@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:08:18.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="7PNqM7Y7KQqqaMdKbQB5" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:47:25.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="ZcJACWRCG6S1CR1vIL09" version="21.1.7" type="github">
   <diagram name="第 1 页" id="qJ-X1qhtcwTxbgNXG1Gi">
     <mxGraphModel dx="794" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1000" math="1" shadow="0">
       <root>
@@ -262,7 +262,7 @@
           <mxGeometry x="832.5" y="639" width="122.5" height="44" as="geometry" />
         </mxCell>
         <mxCell id="NKLDn5L9JN7en2WeP7ce-67" value="与 Collection 没有关系&lt;br&gt;以键值对形式存储元素&lt;br&gt;Key 无序不可重复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="285" width="150" height="40" as="geometry" />
+          <mxGeometry x="1460" y="280" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NKLDn5L9JN7en2WeP7ce-68" value="底层数据结构是哈希表&lt;br&gt;非线程安全" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="440" width="130" height="30" as="geometry" />
@@ -312,8 +312,8 @@
         <mxCell id="U4vTfiN4fj5nzS34plb_-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;curved=1;" edge="1" parent="1" source="U4vTfiN4fj5nzS34plb_-4" target="NKLDn5L9JN7en2WeP7ce-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U4vTfiN4fj5nzS34plb_-4" value="&lt;ol&gt;&lt;li&gt;&lt;font&gt;哈希表底层数据结构是链表数组。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;初始化容量为 0，第一次存入元素后扩容为 16，默认加载因子为 0.75，即元素数量(链表)达到最大容量的 0.75 时开始扩容。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;HashMap 初始化容量必须是 2 的倍数，是为了达到散列分布均匀，提高效率。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;每个链表上存储的元素超过 8 时，会将链表转为红黑树。当红黑树节点小于 6 时，会把红黑树转为链表(Java 8+)。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#29b6f2;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="550" width="230" height="180" as="geometry" />
+        <mxCell id="U4vTfiN4fj5nzS34plb_-4" value="&lt;ol&gt;&lt;li&gt;&lt;font&gt;哈希表底层数据结构是链表数组。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;初始化容量为 0，第一次存入元素后扩容为 16，默认加载因子为 0.75，即元素数量(链表)达到最大容量的 0.75 时开始扩容。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;HashMap 初始化容量必须是 2 的倍数，是为了达到散列分布均匀，提高效率。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;每个链表上存储的元素超过 8 时，会将链表转为红黑树。当红黑树节点小于 6 时，会把红黑树转为链表(Java 8+)。&lt;/li&gt;&lt;li&gt;Key 允许为 null。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#29b6f2;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="550" width="230" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
